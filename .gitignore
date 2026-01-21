@@ -1,0 +1,12 @@
+# Virtual environment
+venv/
+.env
+
+# Databases (CONFIDENTIAL)
+*.db
+
+# Config with secrets (future-proof)
+config.yaml
+
+# Cache
+__pycache__/
