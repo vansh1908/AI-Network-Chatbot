@@ -18,7 +18,7 @@ POP_DB = config["database"]["pop"]
 EQUIPMENT_SCHEMA = get_schema(EQUIPMENT_DB)
 POP_SCHEMA = get_schema(POP_DB)
 
-genai.configure(api_key="AIzaSyB9F1zmj5i7xhBmz2K1IqlTdL49tD62Brw")
+genai.configure(api_key="API_KEY_HERE")
 model = genai.GenerativeModel(config["model"]["name"])
 
 SYSTEM_PROMPT = f"""
